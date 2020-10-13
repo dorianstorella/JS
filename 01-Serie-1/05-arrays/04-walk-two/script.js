@@ -17,7 +17,12 @@
         "raisin",
         "cerise",
     ];
-
-    // your code here
-
+    document.getElementById('run').addEventListener('click', function(){
+    fruits.forEach(elem => {
+  alert(elem);
+    });
+      
+    //https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array/forEach    
+  });
+    
 })();
