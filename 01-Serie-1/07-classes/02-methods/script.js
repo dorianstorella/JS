@@ -2,5 +2,20 @@
 
 
 (() => {
-    // your code here
+    class personne {
+                constructor(prenom,nom){
+                this.prenom=prenom;
+                this.nom=nom;
+            }
+            parler(){
+                return `hello,${this.prenom} ${this.nom}`;
+                 //
+            }
+            }
+    document.getElementById('run').addEventListener('click', function(){
+        let pers = new personne('dodo','lassaumur');
+            console.log(pers.parler());
+            
+    });
+
 })();
