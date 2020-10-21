@@ -3,5 +3,5 @@
 
 (() => {
     document.querySelector('#target').innerHTML=('owned')
-
+//permet de selectionner une balise grace un selecteur css
 })();
