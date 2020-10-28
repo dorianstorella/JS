@@ -5,7 +5,7 @@
 
     let source =document.getElementById('source');
     let target =document.getElementById('target');
-    let image =document.createElement=('image');
+    let image =document.createElement('img');
     image.src = source.getAttribute('data-image');
     target.appendChild(image);
     source.parentNode.removeChild(source);
